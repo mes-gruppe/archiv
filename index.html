@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>archiv</title>
+</head>
+<body>
+<h1>Archiv webu</h1>
+<ul id="fileList">
+    <li>nacitani</li>
+</ul>
+
+<script>
+fetch('.')
+  .then(response => response.text())
+  .then(html => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, 'text/html');
+    const links = Array.from(doc.querySelectorAll('a'));
+    const ul = document.getElementById('fileList');
+    ul.innerHTML = '';
+    links.forEach(link => {
+      const href = link.getAttribute('href');
+      if(href && href !== '../') {
+        const li = document.createElement('li');
+        li.innerHTML = `<a href="${href}" download>${href}</a>`;
+        ul.appendChild(li);
+      }
+    });
+  })
+  .catch(err => {
+    document.getElementById('fileList').innerHTML = 'Nepovedlo se nacist slozku';
+    console.error(err);
+  });
+</script>
+</body>
+</html>
