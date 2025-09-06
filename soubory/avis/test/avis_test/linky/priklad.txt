@@ -1,0 +1,2 @@
+1=zvuky/salamounova.wav *Šalamounova*
+2=zvuky/marianske_hory.wav *Mariánské hory* "Zastávka na znamení"
