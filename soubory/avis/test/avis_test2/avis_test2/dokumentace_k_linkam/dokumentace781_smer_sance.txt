@@ -1,0 +1,8 @@
+DOKUMENTACE K LINCE 781 SMER MOSTY U JABLUNKOVA, SANCE, OPEVNENI (verze 0.1T)
+___________________________________________________________________________________________________________
+Linka obsahuje celkem 18 zastavek, z toho 0 na znameni. Obsahuje zakladni audionahravky zatím BEZ
+ohlaseni pristi stanice, linka je prozatim vedena jako test, proto o ni neni a prozatim nebude 
+zminka v dokumentaci aplikace. Linka je ve verzi 0.1T zatim bez turnusovych cisel ci casovych bodu. 
+Vse bude postupne zavedeno cca od verze 1.0T teto linky. Rovnez formatovani slov na infotabuli nemusi 
+byt vzdy presne a zalezi na rozliseni samotneho monitoru, na monitorech s rozlisenim MENSIM nez 
+1920x1080px se muzou vyskytovat problemy s formatovanim delsich textu.

@@ -1,0 +1,21 @@
+Navod k instalaci knihoven pro provoz aplikace Audiovizualni Informacni System verze 25.02T
+__________________________________________________________________________________________________
+1. krok
+	spustime prikazovy radek bud zapomoci zkratky Win+R (aplikace spustit) nebo pomoci
+	vyhledavani pod klavesou Win. 
+
+2. krok
+	Do aplikace spustit nebo vyhledavani vpiseme zkratku
+	cmd a stiskneme enter, tim otevreme prikazovy radek. 
+
+3. krok
+	Do prikazoveho radku vlozime prikaz "pip install pygame", 
+	vyckame na instalaci knihovny, pote vlozime "pip install keyboard". 
+	Po uspesne instalaci okno prikazoveho radku uzavreme a timto jsme dokoncili instalaci 
+	vsech potrebnych knihoven.
+
+4. krok
+	Spravnost instalace overime bud spustenim souboru spoustec.bat (pokud je vse spravne
+	aplikace avis se spolecne s infotabuli v par okamzicich spusti) nebo pres soubor cmd.bat
+	kde se po zapnuti objevi okno prikazoceho radku kde napiseme python avis.py a bud se aplikace
+	avis spolecne s infotabuli spusti nebo se objevi chybova hlaska.

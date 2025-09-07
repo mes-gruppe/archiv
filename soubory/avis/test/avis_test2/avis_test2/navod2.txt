@@ -1,0 +1,4 @@
+v teto verzi jako test pribyla linka 781 smer mosty u jablunkova, sance, opevneni - neni o ni zminka v dokumentaci!
+aplikaci avis spoustime bud pres davkovy soubor spoustec.bat, pres davkovy soubor cmd.bat kde musime vepsat prikaz python AVIS.PY
+ci primo pres soubor AVIS.PY, vyhoda spousteni pres cmd.bat je i moznost sledovat konzoli aplikace a hledat pripadne chyby 
+jak v aplikaci samotne tak ve vlastnich souborech linek/audionahravek

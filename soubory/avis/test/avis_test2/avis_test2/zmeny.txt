@@ -1,0 +1,8 @@
+Audiovizualni Informacni System verze 25.002T (testovaci verze)
+-----------------------------------------------------------------------------------
+zmenen rozmer infotabule
+pridana linka 781 smer hrcava, konecna
+vyuzivan format ogg misto wav - uspora uloziste (nyni je mozno uzivat oba formaty zaroven)
+vylepsen automaticky rozmer textu na infotabuli (stale pouze testovaci, nemusi fungovat spravne)
+
+(c)2025 Tomas Spratek
